@@ -105,7 +105,7 @@ const AboutCTA = () => {
 
             <Link href={ApplicationRoutes.Home}>
               <motion.button
-                className="relative px-10 py-5 bg-transparent text-white font-bold text-lg rounded-xl border-2 border-white overflow-hidden group"
+                className="relative px-10 py-5 bg-transparent text-white font-bold text-lg rounded-xl border-2 border-white cursor-pointer overflow-hidden group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -115,7 +115,7 @@ const AboutCTA = () => {
                   whileHover={{ x: 0 }}
                   transition={{ duration: 0.3 }}
                 />
-                <span className="relative z-10 group-hover:text-[#0A2540] transition-colors">
+                <span className="relative z-10  group-hover:text-[#0A2540] transition-colors">
                   Learn More
                 </span>
               </motion.button>

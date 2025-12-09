@@ -36,6 +36,7 @@ export async function POST(request: NextRequest) {
               body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
               .container { max-width: 600px; margin: 0 auto; padding: 20px; }
               .header { background: linear-gradient(135deg, #0A2540 0%, #00A8E1 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0; }
+              .logo { max-width: 180px; height: auto; margin-bottom: 20px; }
               .content { background: #f7fafc; padding: 30px; border-radius: 0 0 10px 10px; }
               .field { margin-bottom: 20px; padding: 15px; background: white; border-left: 4px solid #00A8E1; border-radius: 5px; }
               .label { font-weight: bold; color: #0A2540; margin-bottom: 5px; }
@@ -46,6 +47,7 @@ export async function POST(request: NextRequest) {
           <body>
             <div class="container">
               <div class="header">
+                <img src="https://res.cloudinary.com/matthew-ayinde/image/upload/v1765277527/logo_ztqc4e.jpg" alt="Novaro Solutions Logo" class="logo" />
                 <h1>New Contact Form Submission</h1>
                 <p>Novaro Global Limited</p>
               </div>
@@ -103,6 +105,7 @@ export async function POST(request: NextRequest) {
               body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
               .container { max-width: 600px; margin: 0 auto; padding: 20px; }
               .header { background: linear-gradient(135deg, #0A2540 0%, #00A8E1 100%); color: white; padding: 40px; text-align: center; border-radius: 10px 10px 0 0; }
+              .logo { max-width: 180px; height: auto; margin-bottom: 20px; }
               .content { background: #f7fafc; padding: 40px; border-radius: 0 0 10px 10px; }
               .message { background: white; padding: 20px; border-radius: 10px; margin: 20px 0; }
               .button { display: inline-block; padding: 15px 30px; background: linear-gradient(135deg, #00A8E1 0%, #0BC5EA 100%); color: white; text-decoration: none; border-radius: 8px; margin: 20px 0; font-weight: bold; }
@@ -113,6 +116,7 @@ export async function POST(request: NextRequest) {
           <body>
             <div class="container">
               <div class="header">
+                <img src="https://res.cloudinary.com/matthew-ayinde/image/upload/v1765277527/logo_ztqc4e.jpg" alt="Novaro Solutions Logo" class="logo" />
                 <h1>Thank You, ${fullName}!</h1>
                 <p>We've received your message</p>
               </div>
@@ -149,7 +153,7 @@ export async function POST(request: NextRequest) {
               <div class="footer">
                 <p><strong>Novaro Global Limited</strong></p>
                 <p>123 Business Park, Suite 400, City, Country</p>
-                <p>Email: hello@novaro.com | Phone: +1 (555) 123-4567</p>
+                <p>Email: support@novarosolutions.com | Phone: +1 (555) 123-4567</p>
                 <p style="margin-top: 15px; font-size: 11px;">© ${new Date().getFullYear()} Novaro Global Limited. All rights reserved.</p>
               </div>
             </div>

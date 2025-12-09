@@ -10,7 +10,7 @@ const ContactMethods = () => {
       title: 'Sales & New Partnerships',
       description: 'Looking to outsource your support? Let\'s chat about your requirements.',
       details: [
-        { icon: FiMail, text: 'sales@novaro.com', link: 'mailto:sales@novaro.com' },
+        { icon: FiMail, text: 'support@novarosolutions.com', link: 'mailto:support@novarosolutions.com' },
         { icon: FiPhone, text: '+1 (555) 123-4567', link: 'tel:+15551234567' }
       ],
       gradient: 'from-[#00A8E1] to-[#0BC5EA]'
@@ -20,7 +20,7 @@ const ContactMethods = () => {
       title: 'General Enquiries',
       description: 'Have a general question about how we work?',
       details: [
-        { icon: FiMail, text: 'hello@novaro.com', link: 'mailto:hello@novaro.com' },
+        { icon: FiMail, text: 'support@novarosolutions.com', link: 'mailto:support@novarosolutions.com' },
         { icon: FiMessageCircle, text: 'Live Chat: 9 AM - 5 PM', link: '#' }
       ],
       gradient: 'from-[#0BC5EA] to-[#00A8E1]'

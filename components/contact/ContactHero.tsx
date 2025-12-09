@@ -8,7 +8,7 @@ const ContactHero = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'hello@novaro.com',
+      value: 'support@novarosolutions.com',
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -117,14 +117,14 @@ const ContactHero = () => {
                 Send a Message
                 <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 href="#contact-methods"
                 className="inline-flex items-center gap-2 bg-white/5 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold backdrop-blur-sm hover:bg-white/10 transition-all duration-300"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
                 View All Options
-              </motion.a>
+              </motion.a> */}
             </motion.div>
           </div>
 

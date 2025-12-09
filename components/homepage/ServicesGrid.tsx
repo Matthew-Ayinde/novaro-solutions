@@ -38,14 +38,14 @@ const ServicesGrid = () => {
       color: 'from-emerald-500 to-green-500',
       link: '#'
     },
-    {
-      icon: FiUsers,
-      title: 'Back-Office Support',
-      subtitle: 'Behind-the-Scenes Excellence',
-      description: 'Essential behind-the-scenes support. We handle data entry, order processing, refunds, and record updates to keep your operations smooth.',
-      color: 'from-purple-500 to-pink-500',
-      link: '#'
-    },
+    // {
+    //   icon: FiUsers,
+    //   title: 'Back-Office Support',
+    //   subtitle: 'Behind-the-Scenes Excellence',
+    //   description: 'Essential behind-the-scenes support. We handle data entry, order processing, refunds, and record updates to keep your operations smooth.',
+    //   color: 'from-purple-500 to-pink-500',
+    //   link: '#'
+    // },
     {
       icon: BsGraphUp,
       title: 'Sales Support',
@@ -148,14 +148,14 @@ const ServicesGrid = () => {
                     </p>
 
                     {/* Read More Link */}
-                    <motion.a
+                    {/* <motion.a
                       href={service.link}
                       className="inline-flex items-center gap-2 text-[#00A8E1] font-semibold group-hover:gap-3 transition-all duration-300"
                       whileHover={{ x: 5 }}
                     >
                       Read More
                       <FiArrowRight className="text-lg" />
-                    </motion.a>
+                    </motion.a> */}
                   </div>
 
                   {/* Corner Decoration */}
