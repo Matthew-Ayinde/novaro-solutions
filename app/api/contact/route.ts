@@ -138,7 +138,7 @@ export async function POST(request: NextRequest) {
                 </div>
 
                 <div style="text-align: center;">
-                  <a href="${process.env.NEXT_PUBLIC_SITE_URL || 'https://novaro.com'}" class="button">Visit Our Website</a>
+                  <a href="${'https://novaro-solutions.vercel.app/'}" class="button">Visit Our Website</a>
                 </div>
 
                 <div class="message">
