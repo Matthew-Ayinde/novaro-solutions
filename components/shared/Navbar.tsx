@@ -93,7 +93,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <Link href={ApplicationRoutes.Contact} className="hidden lg:block">
               <motion.button
-                className="relative px-7 py-3 bg-gradient-to-r from-[#00A8E1] via-[#0BC5EA] to-[#00A8E1] bg-size-200 text-white font-bold rounded-lg shadow-lg overflow-hidden group"
+                className="relative px-7 py-3 cursor-pointer bg-gradient-to-r from-[#00A8E1] via-[#0BC5EA] to-[#00A8E1] bg-size-200 text-white font-bold rounded-lg shadow-lg overflow-hidden group"
                 whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(0, 168, 225, 0.4)" }}
                 whileTap={{ scale: 0.95 }}
                 animate={{ backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'] }}
