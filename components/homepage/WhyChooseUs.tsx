@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
     {
       icon: FiLayers,
       title: 'Seamless Integration',
-      description: 'We don\'t act like an external agency; we act like your internal department. We train on your specific tools and adopt your specific brand voice.',
+      description: 'We do not act like an external agency; we act like your internal department. We train on your specific tools and adopt your specific brand voice.',
       color: 'from-blue-500 to-cyan-500',
       stats: '100% Brand Aligned'
     },
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
     {
       icon: FiBarChart2,
       title: 'Data-Driven Insights',
-      description: 'We don\'t just answer phones; we provide reports on why customers are calling, helping you improve your business.',
+      description: 'We do not just answer phones; we provide reports on why customers are calling, helping you improve your business.',
       color: 'from-emerald-500 to-green-500',
       stats: 'Actionable Analytics'
     }
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              We're not just another service provider—we're your strategic partner in delivering exceptional customer experiences.
+              We are not just another service provider, we are your strategic partner in delivering exceptional customer experiences.
             </p>
           </motion.div>
 

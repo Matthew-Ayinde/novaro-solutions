@@ -36,7 +36,7 @@ const OurTeam = () => {
             Meet the <span className="text-[#00A8E1]">Experts</span>
           </h2>
           <p className="text-xl text-[#4A5568] max-w-3xl mx-auto">
-            Our strength lies in our people. We don't just hire anyone with a headset.
+            Our strength lies in our people. We do not just hire anyone with a headset.
           </p>
         </motion.div>
 

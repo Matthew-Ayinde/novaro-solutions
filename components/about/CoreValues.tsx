@@ -26,7 +26,7 @@ const CoreValues = () => {
     {
       icon: FiUsers,
       title: 'Brand Adaptability',
-      description: 'We are chameleons. We don\'t force our style on you; we adopt yours. Whether your brand voice is professional and corporate or witty and casual, we mirror it perfectly.',
+      description: 'We are chameleons. We do not force our style on you; we adopt yours. Whether your brand voice is professional and corporate or witty and casual, we mirror it perfectly.',
       color: 'from-[#0BC5EA] to-[#00A8E1]'
     }
   ];

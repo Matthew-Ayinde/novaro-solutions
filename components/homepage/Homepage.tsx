@@ -15,7 +15,7 @@ const Homepage = () => {
       <ServicesGrid />
       <WhyChooseUs />
       <ProcessSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
     </div>
   );
 };

@@ -176,7 +176,7 @@ const ServicesGrid = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              Need a custom solution? We're flexible and can adapt to your unique requirements.
+              Need a custom solution? We are flexible and can adapt to your unique requirements.
             </p>
             <motion.a
               href="/contact"

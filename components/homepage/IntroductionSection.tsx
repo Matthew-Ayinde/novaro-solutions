@@ -75,7 +75,7 @@ const IntroductionSection = () => {
               Great customer service is the difference between a one-time buyer and a lifelong fan. But managing inquiries, tickets, and technical issues can drain your internal resources.
             </p>
             <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              <strong className="text-[#0A2540] dark:text-white">That's where we come in.</strong> We provide a fully managed, trained, and dedicated support team that integrates seamlessly with your business. We adopt your tone of voice, master your product knowledge, and treat your customers with the care they deserve.
+              <strong className="text-[#0A2540] dark:text-white">That is where we come in.</strong> We provide a fully managed, trained, and dedicated support team that integrates seamlessly with your business. We adopt your tone of voice, master your product knowledge, and treat your customers with the care they deserve.
             </p>
           </motion.div>
 

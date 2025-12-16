@@ -130,7 +130,7 @@ const ContactFAQ = () => {
               Still have questions?
             </h3>
             <p className="text-white/90 mb-6">
-              We're here to help! Contact us directly for personalized answers.
+              We are here to help! Contact us directly for personalized answers.
             </p>
             <motion.a
               href="#form"

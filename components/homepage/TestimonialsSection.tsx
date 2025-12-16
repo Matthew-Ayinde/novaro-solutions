@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Don't just take our word for it—hear what our clients have to say about their experience.
+              Do not just take our word for it—hear what our clients have to say about their experience.
             </p>
           </motion.div>
 

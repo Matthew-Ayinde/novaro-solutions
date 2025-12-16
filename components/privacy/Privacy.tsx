@@ -286,7 +286,7 @@ const Privacy = () => {
                     Questions About Your Privacy?
                   </h2>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal information, please don't hesitate to contact us:
+                    If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal information, please do not hesitate to contact us:
                   </p>
                 </div>
               </div>

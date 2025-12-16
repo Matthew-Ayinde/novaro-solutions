@@ -375,7 +375,7 @@ const Terms = () => {
                   Questions About These Terms?
                 </h2>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-2xl mx-auto">
-                  We're here to help. If you have any questions about these Terms of Service or need clarification on any points, please don't hesitate to reach out to our team.
+                  We are here to help. If you have any questions about these Terms of Service or need clarification on any points, please do not hesitate to reach out to our team.
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-6 inline-block">
                   <p className="text-gray-700 dark:text-gray-300 mb-2">

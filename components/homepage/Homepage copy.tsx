@@ -130,7 +130,7 @@ const Homepage = () => {
                 animate={{ opacity: 1, filter: "blur(0px)" }}
                 transition={{ duration: 1, delay: 1.2 }}
               >
-                Professional, reliable, and scalable customer support solutions. From 24/7 phone answering to technical troubleshooting and back-office management—we are the extension of your team you've been looking for.
+                Professional, reliable, and scalable customer support solutions. From 24/7 phone answering to technical troubleshooting and back-office management—we are the extension of your team you have been looking for.
               </motion.span>
             </motion.p>
 
