@@ -30,7 +30,7 @@ const ContactMethods = () => {
       title: 'Visit Our Office',
       description: 'Drop by and say hello!',
       details: [
-        { icon: FiMapPin, text: '123 Business Park, Suite 400, City, Country', link: '#' },
+        { icon: FiMapPin, text: '20, Bamidele Street, Lagos, Nigeria', link: '#' },
         { icon: FiClock, text: 'Mon - Fri: 8:00 AM - 6:00 PM', link: null }
       ],
       gradient: 'from-[#00A8E1] to-[#0BC5EA]'
