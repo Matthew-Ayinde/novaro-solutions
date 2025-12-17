@@ -173,19 +173,8 @@ const Terms = () => {
           <div className="absolute inset-0 bg-gradient-to-br from-[#0A2540] via-[#0d2d4a] to-[#0A2540]" />
         </div>
 
-        {/* Animated Background Elements */}
-        <motion.div
-          className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-[#0BC5EA] rounded-full filter blur-[120px] opacity-20"
-          animate={{
-            scale: [1, 1.3, 1],
-            x: [0, -30, 0],
-          }}
-          transition={{
-            duration: 10,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
-        />
+        {/* Static Background Elements - Removed infinite animation for performance */}
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-[#0BC5EA] rounded-full filter blur-[120px] opacity-20" />
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="max-w-4xl mx-auto text-center">

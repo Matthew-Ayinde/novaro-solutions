@@ -25,19 +25,8 @@ const TheDifference = () => {
 
   return (
     <section className="py-20 lg:py-32 bg-gradient-to-br from-[#0A2540] via-[#0A2540] to-[#00528A] text-white relative overflow-hidden">
-      {/* Decorative Background Elements */}
-      <motion.div
-        className="absolute top-20 right-10 w-96 h-96 bg-[#00A8E1] rounded-full mix-blend-screen filter blur-3xl opacity-10"
-        animate={{
-          scale: [1, 1.2, 1],
-          x: [0, 50, 0],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
+      {/* Static Decorative Background Elements - Removed infinite animation for performance */}
+      <div className="absolute top-20 right-10 w-96 h-96 bg-[#00A8E1] rounded-full mix-blend-screen filter blur-3xl opacity-10" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div

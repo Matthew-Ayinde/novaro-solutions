@@ -187,7 +187,7 @@ const ContactForm = () => {
                     onChange={handleChange}
                     required
                     className="w-full pl-12 pr-4 py-3 bg-white dark:bg-gray-700 dark:text-white border-2 border-gray-200 dark:border-gray-600 rounded-xl focus:border-[#00A8E1] focus:outline-none transition-colors placeholder:text-gray-400 dark:placeholder:text-gray-400"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+(234) 802 573 3103"
                   />
                 </div>
               </div>
@@ -266,22 +266,10 @@ const ContactForm = () => {
               } : {}}
               whileTap={!isSubmitting ? { scale: 0.98 } : {}}
             >
-              {!isSubmitting && (
-                <motion.span
-                  className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20"
-                  initial={false}
-                  animate={{ x: ['-100%', '100%'] }}
-                  transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 0.5 }}
-                />
-              )}
               <span className="relative flex items-center justify-center gap-3">
                 {isSubmitting ? (
                   <>
-                    <motion.div
-                      className="w-5 h-5 border-3 border-white border-t-transparent rounded-full"
-                      animate={{ rotate: 360 }}
-                      transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-                    />
+                    <div className="w-5 h-5 border-3 border-white border-t-transparent rounded-full animate-spin" />
                     Sending...
                   </>
                 ) : (

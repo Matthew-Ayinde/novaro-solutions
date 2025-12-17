@@ -105,8 +105,8 @@ const ProcessSection = () => {
                   {/* Step Number Badge */}
                   <motion.div
                     className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-20"
-                    whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.6 }}
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.3 }}
                   >
                     <div className={`w-24 h-24 bg-gradient-to-br ${step.color} rounded-full flex items-center justify-center shadow-2xl border-4 border-white dark:border-gray-900`}>
                       <span className="text-3xl font-bold text-white">{step.number}</span>
@@ -122,8 +122,8 @@ const ProcessSection = () => {
                     <div className="flex justify-center mb-6">
                       <motion.div
                         className={`w-16 h-16 bg-gradient-to-br ${step.color} rounded-xl flex items-center justify-center shadow-lg`}
-                        whileHover={{ rotate: [0, -10, 10, -10, 0] }}
-                        transition={{ duration: 0.5 }}
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 0.3 }}
                       >
                         <step.icon className="text-2xl text-white" />
                       </motion.div>

@@ -98,8 +98,8 @@ const WhyChooseUs = () => {
                     <div className="flex-shrink-0">
                       <motion.div
                         className={`inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br ${benefit.color} rounded-2xl shadow-xl`}
-                        whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.1 }}
-                        transition={{ duration: 0.6 }}
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 0.3 }}
                       >
                         <benefit.icon className="text-4xl text-white" />
                       </motion.div>

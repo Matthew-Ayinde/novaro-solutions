@@ -99,8 +99,8 @@ const IntroductionSection = () => {
                     {/* Icon */}
                     <motion.div
                       className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#00A8E1] to-[#0BC5EA] rounded-xl shadow-lg mb-4"
-                      whileHover={{ rotate: 360, scale: 1.1 }}
-                      transition={{ duration: 0.6 }}
+                      whileHover={{ scale: 1.1 }}
+                      transition={{ duration: 0.3 }}
                     >
                       <feature.icon className="text-2xl text-white" />
                     </motion.div>

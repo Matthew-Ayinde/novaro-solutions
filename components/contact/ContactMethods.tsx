@@ -11,7 +11,7 @@ const ContactMethods = () => {
       description: 'Looking to outsource your support? Let\'s chat about your requirements.',
       details: [
         { icon: FiMail, text: 'support@novarosolutions.com', link: 'mailto:support@novarosolutions.com' },
-        { icon: FiPhone, text: '+1 (555) 123-4567', link: 'tel:+15551234567' }
+        { icon: FiPhone, text: '+(234) 802 573 3103', link: 'tel:+2348025733103' }
       ],
       gradient: 'from-[#00A8E1] to-[#0BC5EA]'
     },

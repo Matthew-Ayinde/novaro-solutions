@@ -8,33 +8,9 @@ import { ApplicationRoutes } from '@/constants/ApplicationRoutes';
 const AboutCTA = () => {
   return (
     <section className="py-20 lg:py-32 bg-gradient-to-br from-[#0A2540] via-[#0A2540] to-[#00528A] relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <motion.div
-        className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#00A8E1] rounded-full mix-blend-screen filter blur-3xl opacity-20"
-        animate={{
-          scale: [1, 1.3, 1],
-          x: [0, 50, 0],
-          y: [0, 30, 0],
-        }}
-        transition={{
-          duration: 10,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
-      <motion.div
-        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#0BC5EA] rounded-full mix-blend-screen filter blur-3xl opacity-20"
-        animate={{
-          scale: [1, 1.2, 1],
-          x: [0, -50, 0],
-          y: [0, -30, 0],
-        }}
-        transition={{
-          duration: 12,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
+      {/* Static Background Elements - Removed infinite animations for performance */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#00A8E1] rounded-full mix-blend-screen filter blur-3xl opacity-20" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#0BC5EA] rounded-full mix-blend-screen filter blur-3xl opacity-20" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -45,7 +21,7 @@ const AboutCTA = () => {
             whileInView={{ scale: 1, rotate: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, type: "spring", stiffness: 200 }}
-            whileHover={{ scale: 1.1, rotate: 360 }}
+            whileHover={{ scale: 1.1 }}
           >
             <FiMessageCircle className="text-4xl text-white" />
           </motion.div>
@@ -90,12 +66,6 @@ const AboutCTA = () => {
                 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <motion.span
-                  className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20"
-                  initial={false}
-                  animate={{ x: ['-100%', '100%'] }}
-                  transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 0.5 }}
-                />
                 <span className="relative flex items-center gap-3">
                   Meet Your New Team
                   <FiArrowRight className="group-hover:translate-x-2 transition-transform" />

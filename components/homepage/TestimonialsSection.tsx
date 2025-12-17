@@ -93,13 +93,9 @@ const TestimonialsSection = () => {
                   <div className={`absolute inset-0 bg-gradient-to-br ${testimonial.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`} />
                   
                   {/* Quote Icon */}
-                  <motion.div
-                    className={`absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br ${testimonial.color} rounded-full opacity-10 flex items-center justify-center`}
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                  >
+                  <div className={`absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br ${testimonial.color} rounded-full opacity-10 flex items-center justify-center`}>
                     <BsChatQuote className="text-5xl text-white" />
-                  </motion.div>
+                  </div>
 
                   <div className="relative z-10">
                     {/* Rating Stars */}

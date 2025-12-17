@@ -18,33 +18,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Animated Background Elements */}
-      <motion.div
-        className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#00A8E1] rounded-full filter blur-[120px] opacity-20 z-0"
-        animate={{
-          scale: [1, 1.3, 1],
-          x: [0, 50, 0],
-          y: [0, 30, 0],
-        }}
-        transition={{
-          duration: 10,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
-      <motion.div
-        className="absolute bottom-1/4 left-1/4 w-[30rem] h-[30rem] bg-[#0BC5EA] rounded-full filter blur-[130px] opacity-15 z-0"
-        animate={{
-          scale: [1, 1.4, 1],
-          x: [0, -50, 0],
-          y: [0, -30, 0],
-        }}
-        transition={{
-          duration: 12,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
+      {/* Static Background Elements - Removed infinite animations for performance */}
+      <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#00A8E1] rounded-full filter blur-[120px] opacity-20 z-0" />
+      <div className="absolute bottom-1/4 left-1/4 w-[30rem] h-[30rem] bg-[#0BC5EA] rounded-full filter blur-[130px] opacity-15 z-0" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 pt-24 pb-16">
         <div className="max-w-5xl mx-auto">
@@ -63,15 +39,11 @@ const HeroSection = () => {
               <motion.div
                 key={index}
                 className="w-16 h-16 bg-gradient-to-br from-[#00A8E1]/20 to-[#0BC5EA]/20 backdrop-blur-md border border-white/20 rounded-2xl flex items-center justify-center"
-                animate={{
-                  y: [0, -10, 0],
-                  rotate: [0, 5, 0]
-                }}
+                initial={{ opacity: 0, y: -30 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: item.delay,
-                  ease: "easeInOut"
+                  duration: 0.5,
+                  delay: item.delay
                 }}
               >
                 <item.icon className="text-2xl text-[#00A8E1]" />
@@ -162,15 +134,12 @@ const HeroSection = () => {
       {/* Scroll Indicator */}
       <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.8 }}
       >
         <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center pt-2">
-          <motion.div
-            className="w-1.5 h-3 bg-[#00A8E1] rounded-full"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          />
+          <div className="w-1.5 h-3 bg-[#00A8E1] rounded-full" />
         </div>
       </motion.div>
     </section>

@@ -14,7 +14,7 @@ const ContactHero = () => {
     {
       icon: FiPhone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+(234) 802 573 3103',
       color: 'from-cyan-500 to-teal-500'
     },
     {
@@ -41,31 +41,9 @@ const ContactHero = () => {
         }} />
       </div>
 
-      {/* Elegant Floating Orbs */}
-      <motion.div
-        className="absolute top-20 right-20 w-72 h-72 bg-[#00A8E1] rounded-full filter blur-[100px] opacity-20"
-        animate={{
-          scale: [1, 1.2, 1],
-          opacity: [0.2, 0.3, 0.2],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
-      <motion.div
-        className="absolute bottom-20 left-20 w-96 h-96 bg-[#0BC5EA] rounded-full filter blur-[120px] opacity-15"
-        animate={{
-          scale: [1, 1.3, 1],
-          opacity: [0.15, 0.25, 0.15],
-        }}
-        transition={{
-          duration: 10,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
+      {/* Static Floating Orbs - Removed infinite animations for performance */}
+      <div className="absolute top-20 right-20 w-72 h-72 bg-[#00A8E1] rounded-full filter blur-[100px] opacity-20" />
+      <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#0BC5EA] rounded-full filter blur-[120px] opacity-15" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">

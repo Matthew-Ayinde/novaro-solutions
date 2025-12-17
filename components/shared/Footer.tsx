@@ -30,10 +30,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FiLinkedin, href: '#', label: 'LinkedIn' },
-    { icon: FiTwitter, href: '#', label: 'Twitter' },
-    { icon: FiFacebook, href: '#', label: 'Facebook' },
-    { icon: FiInstagram, href: '#', label: 'Instagram' },
+    // { icon: FiLinkedin, href: '#', label: 'LinkedIn' },
+    // { icon: FiTwitter, href: '#', label: 'Twitter' },
+    { icon: FiFacebook, href: 'https://www.facebook.com/share/1ASnfyjs7W/?mibextid=wwXIfr', label: 'Facebook' },
+    { icon: FiInstagram, href: 'https://www.instagram.com/novarogloballimited?igsh=emIzZW5kZm0zOTBt&utm_source=qr', label: 'Instagram' },
   ];
 
   return (
@@ -115,15 +115,13 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <FiMapPin className="text-[#00A8E1] mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Business Avenue<br />
-                  Suite 100<br />
-                  City, State 12345
+                  20 , Bamidele Street, Lagos, Nigeria<br />
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <FiPhone className="text-[#00A8E1] flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-[#00A8E1] transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+2348025733103" className="text-gray-300 hover:text-[#00A8E1] transition-colors">
+                  +(234) 802 573 3103
                 </a>
               </li>
               <li className="flex items-center gap-3">

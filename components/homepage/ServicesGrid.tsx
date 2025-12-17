@@ -128,8 +128,8 @@ const ServicesGrid = () => {
                     {/* Icon */}
                     <motion.div
                       className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${service.color} rounded-xl shadow-lg mb-6`}
-                      whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.1 }}
-                      transition={{ duration: 0.5 }}
+                      whileHover={{ scale: 1.1 }}
+                      transition={{ duration: 0.3 }}
                     >
                       <service.icon className="text-3xl text-white" />
                     </motion.div>

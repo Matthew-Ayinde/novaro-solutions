@@ -148,12 +148,12 @@ export async function POST(request: NextRequest) {
                   ${ticketVolume ? `<p><strong>Ticket Volume:</strong> ${ticketVolume}</p>` : ''}
                 </div>
 
-                <p style="color: #4A5568;">If you have any urgent questions, feel free to call us at <strong>+1 (555) 123-4567</strong></p>
+                <p style="color: #4A5568;">If you have any urgent questions, feel free to call us at <strong>+(234) 802 573 3103</strong></p>
               </div>
               <div class="footer">
                 <p><strong>Novaro Global Limited</strong></p>
                 <p>123 Business Park, Suite 400, City, Country</p>
-                <p>Email: support@novarosolutions.com | Phone: +1 (555) 123-4567</p>
+                <p>Email: support@novarosolutions.com | Phone: +(234) 802 573 3103</p>
                 <p style="margin-top: 15px; font-size: 11px;">© ${new Date().getFullYear()} Novaro Global Limited. All rights reserved.</p>
               </div>
             </div>

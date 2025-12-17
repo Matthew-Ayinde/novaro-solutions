@@ -34,9 +34,48 @@ body {
   font-family: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
 }
 
+/* Performance Optimizations */
+* {
+  /* GPU acceleration for transforms */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    will-change: auto;
+  }
+  
+  *:hover,
+  *:focus,
+  *:active {
+    will-change: transform;
+  }
+}
+
+/* Reduce animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .gradient-text {
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Optimize blur effects */
+.blur-3xl,
+[class*="blur-"] {
+  will-change: filter;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
