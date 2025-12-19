@@ -14,9 +14,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Create transporter using Google SMTP
+    // Create transporter using SMTP
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: process.env.SMTP_HOST,
+      port: parseInt(process.env.SMTP_PORT || '465'),
+      secure: process.env.SMTP_SECURE === 'true', // true for 465, false for other ports
       auth: {
         user: process.env.SMTP_EMAIL,
         pass: process.env.SMTP_PASSWORD,
@@ -138,7 +140,7 @@ export async function POST(request: NextRequest) {
                 </div>
 
                 <div style="text-align: center;">
-                  <a href="${'https://novaro-solutions.vercel.app/'}" class="button">Visit Our Website</a>
+                  <a href="${'https://novarosolutions.com'}" class="button">Visit Our Website</a>
                 </div>
 
                 <div class="message">
@@ -152,7 +154,7 @@ export async function POST(request: NextRequest) {
               </div>
               <div class="footer">
                 <p><strong>Novaro Global Limited</strong></p>
-                <p>123 Business Park, Suite 400, City, Country</p>
+                <p>20, Bamidele Street, Lagos, Nigeria</p>
                 <p>Email: support@novarosolutions.com | Phone: +(234) 802 573 3103</p>
                 <p style="margin-top: 15px; font-size: 11px;">© ${new Date().getFullYear()} Novaro Global Limited. All rights reserved.</p>
               </div>

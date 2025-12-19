@@ -115,7 +115,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <FiMapPin className="text-[#00A8E1] mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  20 , Bamidele Street, Lagos, Nigeria<br />
+                  20, Bamidele Street, Lagos, Nigeria<br />
                 </span>
               </li>
               <li className="flex items-center gap-3">
